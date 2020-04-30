@@ -104,7 +104,9 @@ a:link {
   font-family: 'Manrope';
   font-weight: bold;
  }
-
+ a:hover{
+  color: #298fca;
+}
 
  a{
   color: #ebb0d6;
