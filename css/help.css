@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-
+  padding-top: 1rem;
   color: #333333;
   text-align: center;
   font-size: 28px;
@@ -45,6 +45,7 @@ h2{
 }
 
 .textarea{
+
   max-width: 1000px;
   color: #333333;
   font-size: 22px;
