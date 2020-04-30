@@ -1,7 +1,17 @@
+#container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 7rem;
+}
+
 h1{
   color: #333333;
   text-align: center;
   font-family: 'Audiowide';
+
   max-width: 400px;
 }
 
@@ -13,10 +23,25 @@ h2{
   font-family: 'Audiowide';
 }
 
+#background {
+  background-position: 50%  30%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
 #pegasus{
   max-width: 200px;
   height: 30%;
   width: 30%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .textarea{
@@ -28,27 +53,10 @@ h2{
   font-family: 'Manrope'
 
 }
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
 
 #search{
   height: 100px;
   width: 295px;
-}
-
-
-#container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 7rem;
 }
 
 #footer{
@@ -64,14 +72,18 @@ h2{
 
 ul#footeritem li {
   display:inline;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 2%;
+  font-family: 'Manrope';
 }
 
 li{
-   margin: 50px;
-   color: #ebb0d6;
-   font-size: 20px;
-   font-family: 'Manrope';
-
+  margin: 50px;
+  color: #ebb0d6;
+  font-size: 20px;
+  font-family: 'Manrope';
+  font-weight: bold;
 }
 
 a:link {
@@ -79,12 +91,15 @@ a:link {
   text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
   background-color: transparent;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Manrope';
-}
+  font-weight: bold;
+ }
 
-a{
+
+ a{
   color: #ebb0d6;
+  font-weight: bold;
   text-shadow: -1px -1px 0 #333333, 1px -1px 0 #333333, -1px 1px 0 #333333, 1px 1px 0 #333333;
 }
 
