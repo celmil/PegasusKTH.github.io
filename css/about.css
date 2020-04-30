@@ -4,7 +4,7 @@
 }
 
 #content-wrap {
-  padding-bottom: 12rem;
+  padding-bottom: 8rem;
 }
 
 h1{
@@ -36,7 +36,7 @@ h1{
 }
 
 .textarea{
-  padding-top: 2rem;
+
   max-width: 1000px;
   color: #333333;
   font-size: 22px;
