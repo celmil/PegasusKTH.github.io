@@ -8,8 +8,10 @@ fonts:
 headers - Audiowide
 body text - Manrope
 
+
+
 header:
-tba
+none
 
 footer:
 tba
