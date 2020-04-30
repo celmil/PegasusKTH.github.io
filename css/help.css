@@ -56,7 +56,8 @@ h2{
 }
 
 #search{
-  height: 100px;
+  padding-top: 2rem;
+  height: auto;
   width: 295px;
 }
 
